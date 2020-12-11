@@ -1,59 +1,16 @@
-.navi > li :hover {
-  color: #2196f3;
+body {
+background-color:white;
 }
-.link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-  color: #212121;
+
+a {
+  text-decoration: none;
 }
-.contacts {
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
+
+.footer {
+  background-color: #000000;
 }
-.contacts:hover {
-  color: #2196f3;
-}
-.Web {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}
-.studio {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  color: #000000;
+.buttons :hover,
+.buttons :focus {
+ background-color: #2196F3;
+  color: white
 }
