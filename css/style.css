@@ -1,3 +1,6 @@
+body {
+  box-flex: ;
+}
 a {
   text-decoration: none;
 }
@@ -11,6 +14,7 @@ li {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  padding-left: 35px;
 }
 .web {
   font-family: Raleway;
@@ -33,6 +37,7 @@ li {
 
 .header{
   background-color: #FFFFFF;
+  padding-left: 180px;
 }
 .header-link{
   font-family: Roboto;
@@ -60,6 +65,7 @@ li {
 }
 .baner{
   background-color:  #2F303A;
+  padding-left: 180px;
 }
 .baner-text{
   font-family: Roboto;
@@ -88,6 +94,9 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 }
+.post-benefits{
+  padding-left: 180px;
+}
 .post-title{
   font-family: Roboto;
   font-style: normal;
@@ -107,6 +116,9 @@ color: #FFFFFF;
   letter-spacing: 0.03em;
   color: #757575;
   }
+  .our-work{
+    padding-left: 180px;
+  }
 .post-work{
   font-family: Roboto;
   font-style: normal;
@@ -116,6 +128,9 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  }
+  .our-team{
+    padding-left: 180px;
   }
 .post-team{
   font-family: Roboto;
@@ -147,6 +162,7 @@ color: #FFFFFF;
 }
 .footer {
   background: #2F303A;
+  padding-left: 215px;
 }
 .footerstudio {
   font-family: Raleway;
@@ -202,6 +218,14 @@ address :hover{
                                 letter-spacing: 0.03em;
                                 color: #757575;
                               }
+                              .buttons-section {
+                                padding-left: 180px;
+                              }
+                              .portfolio-container{
+                                padding-left: 215px;
+                              }
+                              
+
 
   
   
