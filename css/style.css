@@ -1,5 +1,5 @@
 body {
-background-color:white;
+  background-color: white;
 }
 
 a {
@@ -11,6 +11,40 @@ a {
 }
 .buttons :hover,
 .buttons :focus {
- background-color: #2196F3;
-  color: white
+  background-color: #2196f3;
+  color: white;
+}
+
+.Web {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.Studio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.FooterStudio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: white;
+}
+.logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 }
