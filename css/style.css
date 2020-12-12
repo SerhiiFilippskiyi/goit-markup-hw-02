@@ -1,16 +1,133 @@
-body {
-  background-color: white;
-}
-
 a {
   text-decoration: none;
 }
-
-.footer {
-  background-color: #000000;
+li {
+  list-style-type: none;
 }
-.buttons :hover,
-.buttons :focus {
+ .header-tel :hover{
+  color: #2196f3;
+}
+.header-mail :hover{
+  color: #2196f3;
+}
+.header-navi :hover{
+  color: #2196f3;
+}
+
+.header{
+box-sizing: border-box;
+position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+.heder-navi{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.header-logo{
+  position: absolute;
+  width: 145px;
+  height: 16px;
+  left: 215px;
+  top: 25px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.header-linkcont{
+position: absolute;
+width: 68px;
+height: 16px;
+left: 679px;
+color: #212121;
+}
+.header-linkstudio{
+position: absolute;
+width: 49px;
+height: 16px;
+left: 453px;
+color: #212121;
+}
+.header-linkport{
+position: absolute;
+width: 77px;
+height: 16px;
+left: 552px;
+color: #212121;
+}
+.header-mail{
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+color: #757575;
+}
+.header-tel{
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+color: #757575;
+}
+.baner{
+box-sizing: border-box;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+.baner-text{
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.baner-button{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  }
+.baner-buttontext{
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.baner-button :hover,
+.baner-button :focus {
   background-color: #2196f3;
   color: white;
 }
@@ -48,3 +165,5 @@ a {
   left: 215px;
   top: 24px;
 }
+.footer {
+  background-color: #000000;
