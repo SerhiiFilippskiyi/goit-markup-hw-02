@@ -7,9 +7,11 @@
 --primary-text-color: #757575;
 --title-text-color: #000000;
 --accent-text-color: #2196f3;
+--primary-white-color: #ffffff;
+--secondary-background-color: #2F303A;
 }
 body {
-  background-color: #FFFFFF;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color) ;
 }
 a {
@@ -48,7 +50,7 @@ li {
 }
 
 .header{
-  background-color: #FFFFFF;
+  background-color: var(--primary-white-color);
   padding-left: 180px;
 }
 .header-link{
@@ -58,7 +60,7 @@ li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .header-contact{
   font-family: Roboto;
@@ -81,7 +83,7 @@ li {
  
 /*банер и кнопка*/
 .baner{
-  background-color:  #2F303A;
+  background-color: var(--secondary-background-color);
   padding-left: 180px;
 }
 .baner-text{
@@ -93,25 +95,25 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--primary-white-color);
 }
 .baner-buttons :hover, 
 .baner-buttons:focus {
    background-color: var(--accent-text-color); 
-   color: #FFFFFF;
-   text-align: center;
+   color: var(--primary-white-color);
 }
-.button-text{
+.baner-buttons{
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 30px;
+line-height: 35px;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: var(--accent-text-color);
+color: var(--primary-white-color);
+background-color: var(--accent-text-color);
 }
 /*текст приимущества*/
 .post-benefits{
@@ -182,7 +184,7 @@ color: var(--accent-text-color);
 }
 /*футер навигация*/
 .footer {
-  background: #2F303A;
+  background: var(--secondary-background-color);
   padding-left: 215px;
 }
 .footerstudio {
@@ -192,7 +194,7 @@ color: var(--accent-text-color);
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--primary-white-color);
 }
 .footer-map{
   font-family: Roboto;
@@ -201,7 +203,7 @@ color: var(--accent-text-color);
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: var(--primary-white-color);
 }
 .footer-contacts{
 font-family: Roboto;
@@ -223,10 +225,12 @@ address :hover{
 .portfolio-container{
   padding-left: 215px;
 }
-.buttons :hover{
- color:white;
-  background: var(--accent-text-color);
+.buttons-section :hover,
+.buttons-section :focus{
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
 }
+ 
 .name-project{
  font-family: Roboto;
  font-style: normal;
